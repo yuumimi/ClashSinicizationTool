@@ -1,4 +1,4 @@
-﻿using ClashSinicizationTool.Properties;
+using ClashSinicizationTool.Properties;
 using Ini;
 using System;
 using System.Diagnostics;
@@ -318,7 +318,7 @@ namespace ClashSinicizationTool
                         }
                         logTextBox.AppendText("汉化完成，请执行下一步操作" + Environment.NewLine);
                         toolStripProgressBar.Value = 0;//恢复默认值
-                    }
+                    
                 }
                 else
                 {
@@ -966,5 +966,4 @@ namespace ClashSinicizationTool
         }
     }
 }
-
 
