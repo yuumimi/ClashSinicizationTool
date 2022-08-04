@@ -286,13 +286,6 @@ namespace ClashSinicizationTool
             {
                 if (File.Exists("moment-with-CN.js"))
                 {
-                    if (File.ReadAllText(clashPath + @"\resources\app\dist\electron\main.js").Contains("退出"))
-                    {
-                        MessageBox.Show("您已汉化，不需要二次汉化", "提示");
-                        logTextBox.AppendText("您已汉化，不需要二次汉化" + Environment.NewLine);
-                    }
-                    else
-                    {
                         //创建备份目录
                         if (!Directory.Exists(backup_original))
                         {
